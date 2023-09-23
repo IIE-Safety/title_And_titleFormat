@@ -24,7 +24,7 @@ Status: Medium
 
 POST parameter 'titleFormat' and 'title' together contain a Stored Cross-Site Scripting (XSS) vulnerability.
 
-[Redirect to Google official website]Payload1:
+[**Redirect to Google official website**]Payload1:
 
 ```html
 POST /concretecms/index.php/ccm/system/dialogs/block/edit/submit?ccm_token=1695469065:5aa63bbe62ffcb4df09a6763873c46be&cID=1&arHandle=Main+%3A+3+%3A+Column+2&bID=1659 HTTP/1.1
@@ -111,7 +111,7 @@ Once edited and saved, anyone visiting this page will be forced to visit the Goo
 
 ![RedirectToGoogle](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/3d2ed4e1-abec-4053-8166-5bdf198de7bd)
 
-[Display alert window]Payload2:
+[**Display alert window**]Payload2:
 
 ```html
 POST /concretecms/index.php/ccm/system/dialogs/block/edit/submit?ccm_token=1695469065:5aa63bbe62ffcb4df09a6763873c46be&cID=1&arHandle=Main+%3A+3+%3A+Column+2&bID=1659 HTTP/1.1
