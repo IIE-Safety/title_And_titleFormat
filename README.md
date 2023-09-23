@@ -2,7 +2,7 @@ BUG_Author:
 LJWIIE
 
 Affected version:
-Concrete CMS
+Concrete CMS versions 9.2.1 and earlier
 
 Vendor:
 https://www.concretecms.org/
@@ -107,7 +107,7 @@ Content-Disposition: form-data; name="__ccm_consider_request_as_xhr"
 
 ![image](https://github.com/IIE-Safety/title_And_titleFormat/assets/65028436/926b6fa4-370b-4532-8b0b-45d3971c1fd1)
 
-After editing and saving, anyone who visits this page will be forced to go to the Google website.
+Once edited and saved, anyone visiting this page will be forced to visit the Google website. Below is a gif showing it.
 
 ![RedirectToGoogle](https://github.com/IIE-Safety/StoredXSS_BODY/assets/65028436/3d2ed4e1-abec-4053-8166-5bdf198de7bd)
 
